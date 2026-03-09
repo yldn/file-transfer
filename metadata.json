@@ -1,0 +1,743 @@
+[
+  {
+    "name": "aws-adfs-authentication",
+    "description": "Authenticate to AWS with ADFS and retrieve temporary credentials for CI/CD workflows.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/aws-adfs-authentication-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/aws-adfs-authentication-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Austin Y X Liang",
+        "email": "austin.y.x.liang@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-03-05T02:36:13Z",
+    "status": "released"
+  },
+  {
+    "name": "upload-s3",
+    "description": "Upload one or more files or artifacts to Amazon S3 as part of a workflow.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-s3-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-s3-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Austin Y X Liang",
+        "email": "austin.y.x.liang@hsbc.com.cn"
+      }
+    ],
+    "category": "deployment",
+    "releasedate": "2026-03-04T10:31:11Z",
+    "status": "released"
+  },
+  {
+    "name": "android-manifests-check-action",
+    "description": "Validate Android manifest files and detect configuration issues before build or release.",
+    "version": "1.0.0-beta9",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-manifests-check-action",
+    "platform": "android",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-manifests-check-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "jack.y.li",
+        "email": "jack.y.li@hsbc.com.cn"
+      }
+    ],
+    "category": "testing",
+    "releasedate": "2026-03-04T08:05:00Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-signing",
+    "description": "Sign HarmonyOS build outputs with the required certificates and signing configuration.",
+    "version": "1.0.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-signing-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-signing-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Eloise T Ma",
+        "email": "eloise.t.ma@hsbc.com.cn"
+      }
+    ],
+    "category": "package",
+    "releasedate": "2026-02-28T07:59:12Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-setup-entity-config",
+    "description": "Set up HarmonyOS entity configuration files and inject required build parameters.",
+    "version": "1.0.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-setup-entity-config-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-setup-entity-config-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Hogan H K Yang",
+        "email": "hogan.h.k.yang@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-28T06:11:09Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-internal-distribution",
+    "description": "Package HarmonyOS artifacts, upload them to Nexus, and deploy them to BOS for internal distribution.",
+    "version": "1.0.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-internal-distribution-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-internal-distribution-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Kelvin C X CHANG",
+        "email": "kelvin.c.x.chang@hsbc.com.cn"
+      }
+    ],
+    "category": "deployment",
+    "releasedate": "2026-02-28T06:08:00Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-product-archive",
+    "description": "Archive signed HarmonyOS build artifacts into the Deploy directory with versioned build naming.",
+    "version": "1.0.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-product-archive-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-product-archive-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Kelvin C X CHANG",
+        "email": "kelvin.c.x.chang@hsbc.com.cn"
+      }
+    ],
+    "category": "package",
+    "releasedate": "2026-02-28T03:39:12Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-build",
+    "description": "Build HarmonyOS applications and produce workflow-ready artifacts for packaging or release.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-build-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-build-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Hogan H K Yang",
+        "email": "hogan.h.k.yang@hsbc.com.cn"
+      }
+    ],
+    "category": "build",
+    "releasedate": "2026-02-06T10:28:41Z",
+    "status": "released"
+  },
+  {
+    "name": "upload-cyberflows",
+    "description": "Upload artifacts or metadata to Cyberflow and trigger a security scan in the pipeline.",
+    "version": "1.1.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-cyberflows-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-cyberflows-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Kamil Talanda",
+        "email": "kamil.talanda@hsbc.com"
+      },
+      {
+        "name": "Grey Liu",
+        "email": "grey.y.f.liu@hsbc.com.cn"
+      }
+    ],
+    "category": "deployment",
+    "releasedate": "2026-02-11T07:05:26Z",
+    "status": "released"
+  },
+  {
+    "name": "android-setup-emulator",
+    "description": "Provision and configure an Android emulator for automated testing workflows.",
+    "version": "1.3.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-setup-emulator-action",
+    "platform": "android",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-setup-emulator-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Grey Y F Liu",
+        "email": "grey.y.f.liu@hsbc.com.cn"
+      },
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-11T07:05:00Z",
+    "status": "released"
+  },
+  {
+    "name": "mobile-actions-controller",
+    "description": "Coordinate and orchestrate Mobile Actions workflow execution, routing, and shared control logic.",
+    "version": "1.1.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/controller",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/controller/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      },
+      {
+        "name": "Grey Liu"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-10T03:53:00Z",
+    "status": "released"
+  },
+  {
+    "name": "upload-testfairy",
+    "description": "Upload mobile build artifacts to TestFairy for testing and distribution.",
+    "version": "1.0.3",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-testfairy-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-testfairy-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Kamil TALANDA",
+        "email": "kamil.talanda@hsbc.com"
+      }
+    ],
+    "category": "testing",
+    "releasedate": "2026-02-10T02:25:00Z",
+    "status": "released"
+  },
+  {
+    "name": "aws-assume-role",
+    "description": "Assume an AWS IAM role and expose temporary credentials for subsequent workflow steps.",
+    "version": "1.0.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/aws-assume-role-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/aws-assume-role-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Austin Y X Liang",
+        "email": "austin.y.x.liang@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-10T02:32:46Z",
+    "status": "released"
+  },
+  {
+    "name": "ios-build",
+    "description": "Build iOS applications and generate artifacts for testing, signing, or release.",
+    "version": "1.1.2-alpha",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-build-action",
+    "platform": "ios",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-build-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Edward Y P Yang",
+        "email": "edward.p.yang_sp@hsbc.com.cn"
+      }
+    ],
+    "category": "build",
+    "releasedate": "2026-02-10T01:46:56Z",
+    "status": "released"
+  },
+  {
+    "name": "android-build",
+    "description": "Build Android applications and generate APK or AAB artifacts for downstream steps.",
+    "version": "1.1.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-build-action",
+    "platform": "android",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-build-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      },
+      {
+        "name": "Grey Liu",
+        "email": "grey.y.f.liu@hsbc.com.cn"
+      }
+    ],
+    "category": "build",
+    "releasedate": "2026-02-04T06:57:32Z",
+    "status": "released"
+  },
+  {
+    "name": "setup-npm",
+    "description": "Set up npm authentication, registry access, and package manager configuration for the workflow.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/setup-npm-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/setup-npm-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "hogan h k yang",
+        "email": "hogan.h.k.yang@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-04T04:17:59Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-compliance-check",
+    "description": "Run compliance checks for HarmonyOS projects and flag policy or packaging issues.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-compliance-check-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-compliance-check-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Eloise T MA",
+        "email": "eloise.t.ma@hsbc.com.cn"
+      }
+    ],
+    "category": "testing",
+    "releasedate": "2026-02-04T04:17:11Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-codelinter",
+    "description": "Run code linting for HarmonyOS projects to catch style and quality issues early.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-codelinter-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-codelinter-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Hogan H K YANG",
+        "email": "hogan.h.k.yang@hsbc.com.cn"
+      },
+      {
+        "name": "Kelvin C X CHANG"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-04T04:03:43Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-shield-verify",
+    "description": "Verify HarmonyOS Shield protection outputs and confirm security integration is valid.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-shield-verify-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-shield-verify-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Eloise T MA",
+        "email": "eloise.t.ma@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-04T03:54:51Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-upload-github-assets",
+    "description": "Upload HarmonyOS build artifacts to a GitHub release and create the release when needed.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-upload-github-assets-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-upload-github-assets-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Kelvin C X CHANG",
+        "email": "kelvin.c.x.chang@hsbc.com.cn"
+      }
+    ],
+    "category": "deployment",
+    "releasedate": "2026-02-04T03:44:30Z",
+    "status": "released"
+  },
+  {
+    "name": "harmonyos-shield-install",
+    "description": "Install HarmonyOS Shield tooling and dependencies required by protected build steps.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-shield-install-action",
+    "platform": "harmonyos",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/harmonyos-shield-install-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Eloise T MA",
+        "email": "eloise.t.ma@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-04T03:37:23Z",
+    "status": "released"
+  },
+  {
+    "name": "zip",
+    "description": "Package files and folders into ZIP archives for publishing, transfer, or release workflows.",
+    "version": "1.0.2",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/zip-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/zip-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Kamil Talanda",
+        "email": "kamil.talanda@hsbc.com"
+      },
+      {
+        "name": "Tim Yang",
+        "email": "tim.l.yang@hsbc.com"
+      }
+    ],
+    "category": "package",
+    "releasedate": "2026-02-09T06:14:30Z",
+    "status": "released"
+  },
+  {
+    "name": "upload-to-github-release-action",
+    "description": "Upload build artifacts to an existing GitHub release as workflow assets.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-to-github-release-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-to-github-release-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Tim.L.Yang",
+        "email": "Tim.l.yang@hsbc.com"
+      }
+    ],
+    "category": "deployment",
+    "releasedate": "2026-02-03T12:10:19Z",
+    "status": "released"
+  },
+  {
+    "name": "checkout",
+    "description": "Check out source code into the runner workspace for subsequent workflow steps.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/checkout-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/checkout-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      },
+      {
+        "name": "Grey Liu"
+      }
+    ],
+    "category": "testing",
+    "releasedate": "2026-02-03T10:09:43Z",
+    "status": "released"
+  },
+  {
+    "name": "mobile-ci-validation",
+    "description": "Validate the mobile-ci.json schema and ensure CI configuration is well formed.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-validation",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-validation/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-03T09:04:06Z",
+    "status": "released"
+  },
+  {
+    "name": "upload-to-appdynamics",
+    "description": "Upload application monitoring data or artifacts to AppDynamics for observability workflows.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-to-appdynamics-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/upload-to-appdynamics-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "deployment",
+    "releasedate": "2026-02-02T03:42:33Z",
+    "status": "released"
+  },
+  {
+    "name": "mobile-ci-dependency-download",
+    "description": "Download and install all dependencies declared in mobile-ci.json for the pipeline.",
+    "version": "1.1.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-dependency-download-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-dependency-download-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Lanmon M Y Liang",
+        "email": "lanmon.m.y.liang@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-02-02T02:22:44Z",
+    "status": "released"
+  },
+  {
+    "name": "sonartype-iq-scan",
+    "description": "Run a Sonatype IQ scan to detect security, license, and policy issues in dependencies.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/sonartype-iq-scan-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/sonartype-iq-scan-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "scanning",
+    "releasedate": "2026-01-30T09:38:49Z",
+    "status": "released"
+  },
+  {
+    "name": "mobile-ci-ci-script",
+    "description": "Install and expose CI scripts declared in mobile-ci.json for workflow execution.",
+    "version": "1.1.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-ci-script-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-ci-script-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Lanmon M Y Liang",
+        "email": "lanmon.m.y.liang@hsbc.com.cn"
+      },
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-01-30T02:54:33Z",
+    "status": "released"
+  },
+  {
+    "name": "sonarscan",
+    "description": "Run a SonarQube scan to analyze code quality, bugs, and technical debt.",
+    "version": "1.1.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/sonarqube-scan-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/sonarqube-scan-action/blob/main/README.md",
+    "maintainers": [],
+    "category": "scanning",
+    "releasedate": "2026-01-28T09:15:54Z",
+    "status": "released"
+  },
+  {
+    "name": "mobile-ci-lib-size-check",
+    "description": "Compare library size reports and detect size regressions between builds.",
+    "version": "1.1.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-lib-size-check-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-lib-size-check-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "testing",
+    "releasedate": "2026-01-28T02:10:56Z",
+    "status": "released"
+  },
+  {
+    "name": "mobile-ci-lib-version-diff",
+    "description": "Compare two app or library versions and generate a changelog of differences.",
+    "version": "1.1.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-lib-version-diff-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/mobile-ci-lib-version-diff-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Lanmon"
+      },
+      {
+        "name": "Jiaqi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-01-27T06:24:25Z",
+    "status": "released"
+  },
+  {
+    "name": "codega",
+    "description": "Run CodeGA analysis on pull requests to identify quality and policy issues.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/codega-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/codega-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jack Y Li"
+      }
+    ],
+    "category": "scanning",
+    "releasedate": "2026-01-26T10:13:34Z",
+    "status": "released"
+  },
+  {
+    "name": "platformhub-plugin-accreditation",
+    "description": "Verify PlatformHub plugin accreditation requirements and detect missing approvals or metadata.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/platformhub-plugin-accreditation-action",
+    "platform": "all",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/platformhub-plugin-accreditation-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Lanmon M Y Liang",
+        "email": "lanmon.m.y.liang@hsbc.com.cn"
+      },
+      {
+        "name": "Eric X Z Pan",
+        "email": "eric.x.z.pan@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-01-26T04:02:58Z",
+    "status": "released"
+  },
+  {
+    "name": "ios-import-signing-identities",
+    "description": "Import iOS signing identities and certificates into the build environment.",
+    "version": "1.0.2-alpha3",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-import-signing-identities-action",
+    "platform": "ios",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-import-signing-identities-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Edward Y P YANG",
+        "email": "edward.p.yang_sp@hsbc.com.cn"
+      }
+    ],
+    "category": "package",
+    "releasedate": "2025-11-14T03:39:51Z",
+    "status": "released"
+  },
+  {
+    "name": "ios-uitest-action",
+    "description": "Run iOS UI tests in an automated workflow and collect the resulting test outputs.",
+    "version": "1.0.0-alpha2",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-uitest-action",
+    "platform": "ios",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-uitest-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Krystian Bylica",
+        "email": "krystian.bylica@hsbc.com"
+      }
+    ],
+    "category": "testing",
+    "releasedate": "2025-10-30T14:47:40Z",
+    "status": "released"
+  },
+  {
+    "name": "ios-codesign",
+    "description": "Automate iOS code signing with the required certificates, profiles, and signing settings.",
+    "version": "1.0.0-beta1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-codesign-action",
+    "platform": "ios",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-codesign-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Lanmon"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-01-20T09:51:45Z",
+    "status": "released"
+  },
+  {
+    "name": "android-signing",
+    "description": "Sign Android application packages with the configured keystore and release credentials.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-signing-action",
+    "platform": "android",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-signing-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "package",
+    "releasedate": "2026-01-20T06:59:38Z",
+    "status": "released"
+  },
+  {
+    "name": "ios-xcresult-converter",
+    "description": "Convert Xcode xcresult outputs, including coverage data, into XML for downstream reporting.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-xcresult-converter-action",
+    "platform": "ios",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-xcresult-converter-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Lanmon"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-01-20T06:58:42Z",
+    "status": "released"
+  },
+  {
+    "name": "ios-extract-project-plugins-metadata",
+    "description": "Extract plugin metadata from iOS projects for validation, reporting, or packaging workflows.",
+    "version": "1.0.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-extract-project-plugins-metadata",
+    "platform": "ios",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/ios-extract-project-plugins-metadata/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Lanmon"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-01-19T10:04:27Z",
+    "status": "released"
+  },
+  {
+    "name": "android-rasp-action",
+    "description": "Perform Android RASP-related packaging or protection steps in the build pipeline.",
+    "version": "0.0.1",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-rasp-action",
+    "platform": "android",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-rasp-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Kamil Talanda",
+        "email": "kamil.talanda@hsbc.com.cn"
+      }
+    ],
+    "category": "package",
+    "releasedate": "2026-01-19T08:49:14Z",
+    "status": "released"
+  },
+  {
+    "name": "android-bundletool",
+    "description": "Use bundletool to inspect, build, or convert Android App Bundle artifacts.",
+    "version": "1.1.0",
+    "repo_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-bundle-tool-action",
+    "platform": "android",
+    "doc_url": "https://alm-github.systems.uk.hsbc/mobile-actions/android-bundle-tool-action/blob/main/README.md",
+    "maintainers": [
+      {
+        "name": "Jia Qi Fu",
+        "email": "jiaqi.fu@hsbc.com.cn"
+      }
+    ],
+    "category": "other",
+    "releasedate": "2026-01-19T03:03:41Z",
+    "status": "released"
+  }
+]
